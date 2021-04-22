@@ -1,7 +1,0 @@
-<h1>AWS BUCKET AND CONTENTS</h1>
-{% for key, value in allfiles.items() %}
-    <h3>Bucket Name: {{key}}</h3>
-    {% for file in value %}
-    <p>File Name: {{file}}</p>
-    {% endfor %}
-{% endfor %}
